@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidade</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      max-width: 640px;
+      margin: 60px auto;
+      padding: 0 20px;
+      color: #222;
+      line-height: 1.6;
+    }
+    h1 { margin-bottom: 4px; }
+    h2 { margin-top: 32px; font-size: 18px; }
+    .atualizado { color: #666; margin-top: 0; font-size: 14px; }
+    footer { margin-top: 48px; font-size: 13px; color: #888; }
+    a { color: #0645ad; }
+  </style>
+</head>
+<body>
+  <h1>Política de Privacidade</h1>
+  <p class="atualizado">Última atualização: 18 de setembro de 2026</p>
+
+  <p>
+    Esta política descreve como esta ferramenta de automação pessoal acessa
+    e utiliza dados da API do Gmail.
+  </p>
+
+  <h2>Quem usa esta ferramenta</h2>
+  <p>
+    Esta ferramenta é de uso exclusivamente pessoal do seu autor. Não é um
+    serviço distribuído ou oferecido a terceiros. Nenhum outro usuário, além
+    do próprio autor, autoriza ou usa esta ferramenta.
+  </p>
+
+  <h2>Quais dados são acessados</h2>
+  <p>
+    A ferramenta se conecta à conta de Gmail do próprio autor, usando OAuth
+    2.0, para:
+  </p>
+  <ul>
+    <li>Enviar um e-mail de aprovação contendo a prévia de uma ação a ser executada;</li>
+    <li>Ler a resposta a esse e-mail, dentro da mesma conversa (thread), para identificar se a ação foi aprovada, deve ser ajustada ou cancelada.</li>
+  </ul>
+  <p>
+    Nenhum outro conteúdo da caixa de entrada é lido, listado ou modificado.
+    A ferramenta não acessa contatos, anexos de outras mensagens, nem
+    qualquer dado fora dessas duas ações.
+  </p>
+
+  <h2>Como os dados são usados e armazenados</h2>
+  <p>
+    Os dados lidos (texto da resposta ao e-mail) são usados apenas em memória,
+    no momento da execução, para decidir o próximo passo da automação
+    (seguir adiante, ajustar ou cancelar). Não há banco de dados, servidor
+    externo ou terceiro que receba, armazene ou processe o conteúdo desses
+    e-mails.
+  </p>
+
+  <h2>Compartilhamento de dados</h2>
+  <p>
+    Nenhum dado obtido via API do Gmail é compartilhado, vendido ou
+    transmitido a qualquer outro serviço, empresa ou pessoa. Outras
+    integrações externas usadas pela automação, fora do Gmail, não recebem
+    dados da conta de e-mail — apenas o conteúdo já aprovado.
+  </p>
+
+  <h2>Revogação de acesso</h2>
+  <p>
+    O acesso concedido a esta ferramenta pode ser revogado a qualquer momento
+    em
+    <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a>.
+  </p>
+
+  <h2>Contato</h2>
+  <p>
+    Dúvidas sobre esta política podem ser enviadas para: [seu e-mail de contato aqui]
+  </p>
+
+  <footer>
+    Ferramenta pessoal, sem fins comerciais.
+  </footer>
+</body>
+</html>
